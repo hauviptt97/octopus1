@@ -31,7 +31,7 @@ const pages = [Home, Staking, Links, About]
   <a-layout>
     <a-layout-header>
     <div id="menu">
-      <a-menu v-model:selectedKeys="current" mode="horizontal">
+      <a-menu v-model:selectedKeys="current" mode="horizontal" :inline-collapsed="collapsed">
         <a-menu-item @click="toHomeClick" key="home">
           Home
         </a-menu-item>
