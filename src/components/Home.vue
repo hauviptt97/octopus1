@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <div  id="home" v-bind:style="{ backgroundImage: 'url(' + $image('/', 'octopusbg.jpg') + ')' } " class="bg">
+    <div  id="home" v-bind:style="{ backgroundImage: 'url(' + $image('/', 'octopusbg6.jpg') + ')' } " class="bg">
         <div class="homeContent">
 <a-row>
     <a-col :span="24">
@@ -16,11 +16,11 @@
 </a-row>
 <a-row>
     <a-col :span="24">
-        Contract: <span style="font-weight: 500; font-style: italic; font-size: 0.8rem; ">0x69Ed89ecd35082E031fE52b75123F801DB083306</span>
+        Contract: <span style=" margin: 50px; font-weight: 500; font-style: italic; font-size: 1.5rem; color: yellow;">0x69Ed89ecd35082E031fE52b75123F801DB083306</span>
     </a-col>
 </a-row>
 <a-row justify="center" style="margin-bottom: 60px;">
-    <a-col :span="6">
+    <a-col :xs="10" :md="6">
         <a href="https://app.uniswap.org/" target="_blank"><button>
             BUY $OCTOPUS
         </button>
@@ -28,7 +28,7 @@
     </a-col>
     <a-col :span="1">
     </a-col>
-    <a-col :span="6">
+    <a-col :xs="10" :md="6">
         <a href="https://www.dextools.io/app/en/ether/pair-explorer/0x843f86e8a97f11ad4560444071ca35a9783bd8a9" target="_blank">
         <button>
             VIEW CHART
@@ -36,7 +36,7 @@
         </a>
     </a-col>
 </a-row>
-<a-row  justify="center">
+<a-row  justify="center"  >
     <a-col :span="2">
         <a href="https://web.telegram.org/" target="_blank"><i class="fa-brands fa-telegram"></i></a>
     </a-col>
@@ -87,6 +87,6 @@
     font-size: 5rem;
     font-weight: 800;
     font-family: 'Courier New', Courier, monospace;
-    color: aliceblue;
+    color: yellow;
 }
 </style>
