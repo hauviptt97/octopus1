@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <div  id="home" v-bind:style="{ backgroundImage: 'url(' + $image('/src/assets/', 'octopusbg.jpg') + ')' } " class="bg">
+    <div  id="home" v-bind:style="{ backgroundImage: 'url(' + $image('/public/', 'octopusbg.jpg') + ')' } " class="bg">
         <div class="homeContent">
 <a-row>
     <a-col :span="24">
