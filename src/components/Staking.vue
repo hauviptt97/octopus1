@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div id="staking"  v-bind:style="{ backgroundImage: 'url(' + $image('/src/assets/', 'octopus_bg1.jpg') + ')' } " class="bg">
+    <div id="staking"  v-bind:style="{ backgroundImage: 'url(' + $image('/src/assets/', 'octopusbg1.jpg') + ')' } " class="bg">
     <div class="homeContent">
         <a-row>
             <a-col :span="24">
