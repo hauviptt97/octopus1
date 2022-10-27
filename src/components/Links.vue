@@ -5,7 +5,7 @@
 <template>
     <div id="links"  v-bind:style="{ backgroundImage: 'url(' + $image('/', 'octopusbg2.jpg') + ')' } " class="bg">
     <div class="homeContent">
-        <a-row style="margin-bottom: 100px;">
+        <a-row style="margin-bottom: 70px;">
             <a-col :span="24">
                 <span class="title">JOIN WITH ME</span>
             </a-col>
@@ -34,7 +34,7 @@
 }
 
 #links .ant-row i {
-    font-size: 4vw;
+    font-size: 6vw;
     color: #fff;
 }
 </style>
