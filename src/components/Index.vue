@@ -71,7 +71,7 @@ const pages = [Home, Staking, Links, About]
   position: absolute;
   z-index: 1;
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 1rem;
   width: 100%;
   font-weight: 400;
   font-family: 'Courier New',
