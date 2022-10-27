@@ -5,9 +5,9 @@
 <template>
     <div id="links"  v-bind:style="{ backgroundImage: 'url(' + $image('/', 'octopusbg2.jpg') + ')' } " class="bg">
     <div class="homeContent">
-        <a-row>
+        <a-row style="margin-bottom: 100px;">
             <a-col :span="24">
-                <span class="title">SOCIAL LINKS</span>
+                <span class="title">JOIN WITH ME</span>
             </a-col>
         </a-row>
         <a-row justify="center">
