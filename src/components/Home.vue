@@ -16,7 +16,7 @@
 </a-row>
 <a-row>
     <a-col :span="24">
-        Contract: <span style="font-weight: 500; font-style: italic; font-size: 1rem; ">0x69Ed89ecd35082E031fE52b75123F801DB083306</span>
+        Contract: <span style="font-weight: 500; font-style: italic; font-size: 0.8rem; ">0x69Ed89ecd35082E031fE52b75123F801DB083306</span>
     </a-col>
 </a-row>
 <a-row justify="center" style="margin-bottom: 60px;">
@@ -84,7 +84,7 @@
 }
 
 .title {
-    font-size: 6vw;
+    font-size: 5rem;
     font-weight: 800;
     font-family: 'Courier New', Courier, monospace;
     color: aliceblue;
