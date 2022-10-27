@@ -16,11 +16,11 @@
 </a-row>
 <a-row>
     <a-col :span="24">
-        Contract: <span style="font-weight: 500; font-style: italic; font-size: 1vw; ">0x69Ed89ecd35082E031fE52b75123F801DB083306</span>
+        Contract: <span style="font-weight: 500; font-style: italic; font-size: 1rem; ">0x69Ed89ecd35082E031fE52b75123F801DB083306</span>
     </a-col>
 </a-row>
-<a-row justify="center">
-    <a-col :span="4">
+<a-row justify="center" style="margin-bottom: 60px;">
+    <a-col :span="6">
         <a href="https://app.uniswap.org/" target="_blank"><button>
             BUY $OCTOPUS
         </button>
@@ -28,7 +28,7 @@
     </a-col>
     <a-col :span="1">
     </a-col>
-    <a-col :span="4">
+    <a-col :span="6">
         <a href="https://www.dextools.io/app/en/ether/pair-explorer/0x843f86e8a97f11ad4560444071ca35a9783bd8a9" target="_blank">
         <button>
             VIEW CHART
@@ -47,7 +47,7 @@
         <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
     </a-col>
     <a-col :span="2">
-        <a href="https://discord.com/" target="_blank"><i class="fa-brands fa-discord"></i></a>
+        <a href="https://discord.com/" target="_blank"><i class="fa-brands fa-discord"></i></a >
     </a-col>
 </a-row>
 </div>
@@ -79,7 +79,7 @@
 }
 
 #home .ant-row i {
-    font-size: 2vw;
+    font-size: 3vw;
     color: #fff;
 }
 
