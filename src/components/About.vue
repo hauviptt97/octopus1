@@ -4,7 +4,7 @@ import { ClockCircleOutlined } from '@ant-design/icons-vue';
 </script>
 
 <template>
-    <div id="links"  v-bind:style="{ backgroundImage: 'url(' + $image('/', 'octopusbg3.jpg') + ')' } " class="bg">
+    <div id="about"  v-bind:style="{ backgroundImage: 'url(' + $image('/', 'octopusbg3.jpg') + ')' } " class="bg">
     <div class="homeContent">
         <a-timeline mode="alternate">
             <a href="" target="_blank">
@@ -49,15 +49,16 @@ import { ClockCircleOutlined } from '@ant-design/icons-vue';
 </template>
 
 <style>
-#links .ant-row .ant-col {
+#about{
+    overflow-y: scroll !important;
+     
+}
+
+#about .ant-row .ant-col {
     text-align: center;
 }
 
-#links .ant-row i {
-    font-size: 4vw;
-}
-
-#links .homeContent{
+#about .homeContent{
     margin-top: 25vh;
     padding: 20px;
 }
