@@ -32,7 +32,7 @@
     <a-col :span="1">
     </a-col>
     <a-col :xs="10" :md="6">
-        <a href="https://www.dextools.io/app/en/ether/pair-explorer/0x843f86e8a97f11ad4560444071ca35a9783bd8a9" target="_blank">
+        <a href="">
         <button>
             VIEW CHART
         </button>
