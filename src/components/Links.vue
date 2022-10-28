@@ -12,16 +12,10 @@
         </a-row>
         <a-row justify="center">
             <a-col :span="2">
-                <a href="https://web.telegram.org/" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://t.me/OctopusDegen" target="_blank"><i class="fa-brands fa-telegram"></i></a>
             </a-col>
             <a-col :span="2">
-                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-            </a-col>
-            <a-col :span="2">
-                <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-            </a-col>
-            <a-col :span="2">
-                <a href="https://discord.com/" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                <a href="https://twitter.com/Octopusdegen" target="_blank"><i class="fa-brands fa-twitter"></i></a>
             </a-col>
         </a-row>
         </div>

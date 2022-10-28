@@ -16,7 +16,10 @@
 </a-row>
 <a-row>
     <a-col :span="24">
-        Contract: <span style=" margin: 50px; font-weight: 500; font-style: italic; font-size: 1.5rem; color: yellow;">0x69Ed89ecd35082E031fE52b75123F801DB083306</span>
+        Contract: 
+        <!-- <a-typography-text copyable>
+        <span style=" margin: 50px; font-weight: 500; font-style: italic; font-size: 1.5rem; color: yellow;"></span>
+        </a-typography-text> -->
     </a-col>
 </a-row>
 <a-row justify="center" style="margin-bottom: 60px;">
@@ -38,17 +41,12 @@
 </a-row>
 <a-row  justify="center"  >
     <a-col :span="2">
-        <a href="https://web.telegram.org/" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+        <a href="https://t.me/OctopusDegen" target="_blank"><i class="fa-brands fa-telegram"></i></a>
     </a-col>
     <a-col :span="2">
-        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://twitter.com/Octopusdegen" target="_blank"><i class="fa-brands fa-twitter"></i></a>
     </a-col>
-    <a-col :span="2">
-        <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-    </a-col>
-    <a-col :span="2">
-        <a href="https://discord.com/" target="_blank"><i class="fa-brands fa-discord"></i></a >
-    </a-col>
+ 
 </a-row>
 </div>
     </div>
@@ -84,9 +82,9 @@
 }
 
 .title {
-    font-size: 5rem;
-    font-weight: 800;
+    font-size: 3.3rem;
+    font-weight: 500;
     font-family: 'Courier New', Courier, monospace;
-    color: yellow;
+    color: white;
 }
 </style>
