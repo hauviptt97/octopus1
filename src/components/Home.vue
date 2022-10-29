@@ -17,9 +17,11 @@
 <a-row>
     <a-col :span="24">
         Contract: 
-        <!-- <a-typography-text copyable>
-        <span style=" margin: 50px; font-weight: 500; font-style: italic; font-size: 1.5rem; color: yellow;"></span>
-        </a-typography-text> -->
+        <a-typography-text copyable>
+        <span style=" margin: 50px; font-weight: 500; font-style: italic; font-size: 1.5rem; color: yellow;">
+        0x55a020925d1dBAE2aEF72cc9f4b2F584429a5b99
+        </span>
+        </a-typography-text>
     </a-col>
 </a-row>
 <a-row justify="center" style="margin-bottom: 60px;">

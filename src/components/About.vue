@@ -36,9 +36,9 @@ import { ClockCircleOutlined } from '@ant-design/icons-vue';
                         <blockquote>Website is created 25-10-2022</blockquote>
                         <a-divider />
                         <a-typography-paragraph>
-                            THE community has been pouring in work over the last week, creating websites, merchandise shops, marketing
+                            Octopus community has been pouring in work over the last week, creating websites, marketing
                             videos,
-                            community events, and too many other community centric items to list. This is THE community of 2022
+                            community events, and too many other community centric items to list. This is Octopus community of 2022
                         </a-typography-paragraph>
                     </a-typography>
                 </a-timeline-item>
