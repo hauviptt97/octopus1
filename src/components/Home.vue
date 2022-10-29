@@ -24,7 +24,7 @@
 </a-row>
 <a-row justify="center" style="margin-bottom: 60px;">
     <a-col :xs="10" :md="6">
-        <a href="https://app.uniswap.org/" target="_blank"><button>
+        <a href="https://app.uniswap.org/#/swap?&outputCurrency=0x55a020925d1dBAE2aEF72cc9f4b2F584429a5b99&use=V2" target="_blank"><button>
             BUY $OCTOPUS
         </button>
         </a>
@@ -32,7 +32,7 @@
     <a-col :span="1">
     </a-col>
     <a-col :xs="10" :md="6">
-        <a href="">
+        <a href="https://www.dextools.io/app/en/ether/pair-explorer/0x1e21d4c3f788ca06c5ab51138a0156a5e4ffd636" target="_blank">
         <button>
             VIEW CHART
         </button>
